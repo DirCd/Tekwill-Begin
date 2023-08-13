@@ -1,4 +1,2 @@
-# Tekwill-Begin
-asdadas
-
-sadasdasd
+# Tekwill Academy
+Этот проект является примером использования синтаксиса Markdown.
