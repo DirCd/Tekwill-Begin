@@ -1,0 +1,4 @@
+# Ignores repository local
+local/
+# Ignores file temp.txt in the main repository
+temp.txt
