@@ -3,33 +3,34 @@
         <head>
     <title>Forms</title>
     <meta charset="UTF-8">
+    <!--<link rel="stylesheet" type="text/css" href="style.css"> --> 
         </head>
         <body>
     <form>
         <fieldset>
             <legend>Basic User Information:</legend>
-        <label for="fname">Full name:</label>
-        <input type="text" id="fname" name="fname" required><br>
+        <label for="fullname">Full name:</label>
+        <input type="text" id="fullname" name="fullname" required><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
-        <label for="pwd">Password:</label>
-        <input type="password" id="pwd" name="pwd" required>
-        <label for="cpwd">Confirm Password:</label>
-        <input type="password" id="cpwd" name="cpwd" required><br>
-        <label >Gender:</label>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+        <label >Gender:</label><br>
         <input type="radio" id="male" name="Gen" value="Male">
         <label for="male">Male</label>
         <input type="radio" id="female" name="Gen" value="Female">
         <label for="female">Female</label>
         <input type="radio" id="other" name="Gen" value="Other">
         <label for="other">Other</label><br>
-        <label for="DOB">Date of Birth:</label>
-        <input type="date" id="DOB" name="DOB">
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth">
     </fieldset>
     <fieldset>
         <legend>Address Information:</legend>
-    <label for="Address">Street Address:</label>
-    <textarea id="Address" name="Address"></textarea><br>
+    <label for="address">Street Address:</label>
+    <textarea id="address" name="address"></textarea><br>
     <label for="country">Country:</label>
     <select id="country" name="country">
     <option value="USA">USA</option>
@@ -40,46 +41,46 @@
     </select><br>
     <label for="city">City:</label>
     <input type="text" id="city" name="city" > <br>
-    <label for="pc">Postal Code:</label>
-    <input type="number" id="pc" name="pc">
+    <label for="postal_code">Postal Code:</label>
+    <input type="number" id="postal_code" name="postal_code">
     </fieldset>
     <fieldset>
         <legend>Preferences</legend>
         <label>Preferred Contact Method</label>
-        <input type="checkbox" id="e-mail" name="pcm" value="Email">
+        <input type="checkbox" id="e-mail" name="contact_method" value="Email">
         <label for="e-mail">Email</label>
-        <input type="checkbox" id="phone" name="pcm" value="Phone">
+        <input type="checkbox" id="phone" name="contact_method" value="Phone">
         <label for="phone">Phone</label>
-        <input type="checkbox" id="posmail" name="pcm" value="Postal-Mail">
-        <label for="posmail">Postal Mail</label><br>
+        <input type="checkbox" id="posmail" name="contact_method" value="Postal-Mail">
+        <label for="postal-mail">Postal Mail</label><br>
         <label for="color">Favorite color:</label>
         <input type="color" id="color" name="color">
     </fieldset>
     <fieldset>
         <legend>Additional Details:</legend>
-        <label for="hdha">How did you hear about us?</label>
-        <select id="hdha" name="hdha">
+        <label for="details">How did you hear about us?</label>
+        <select id="details" name="details">
             <option value="internet">Internet</option>
             <option value="friend">Friend</option>
-            <option value="adv">Advertisement</option>
+            <option value="advertisement">Advertisement</option>
             <option value="magazine">Magazine</option>
         </select><Br>
-        <label for="f-c">Feedback/Comments</label>
-        <textarea id="f-c" name="f-c">
+        <label for="feedback">Feedback/Comments</label>
+        <textarea id="feedback" name="feedback">
         </textarea>
     </fieldset>
     <fieldset oninput="out.value=exl.value">
         <legend>Profile:</legend>
-        <label for="cfile">Upload a Profile Picture:</label>
-        <input type="file" id="cfile" name="cfile" accept=".png,.jpg"><br>
-        <label for="Url">Website URL:</label>
-        <input type="url" id="Url" name="Url"><br>
-        <label for="exl" >Experience level with HTML:</label>
-        <input type="range" id="exl" name="exl" min="1" max="10">
+        <label for="picture">Upload a Profile Picture:</label>
+        <input type="file" id="picture" name="picture" accept=".png,.jpg"><br>
+        <label for="website">Website URL:</label>
+        <input type="url" id="website" name="website"><br>
+        <label for="experience" >Experience level with HTML:</label>
+        <input type="range" id="experience" name="experience" min="1" max="10">
         <output id="out">5</output>/10
     </fieldset>
     <input type="submit" value="Submit">
-    <input type="reset">
+    <input type="reset" value="Reset">
     </form>
         </body>
     </html>

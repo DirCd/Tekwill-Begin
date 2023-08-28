@@ -1,0 +1,42 @@
+fieldset {
+    border-color: rgb(83, 162, 201);
+    margin: 20px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 7px;
+}
+legend {
+    color: rgb(57, 121, 154);
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic; 
+    
+}
+label {
+    font-weight: bolder;
+    
+}
+input {
+    margin-top: 20px;
+}
+.submit {
+    color: white;
+    background-color: rgb(40, 129, 231);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border: hidden;
+    width: 80px;
+}
+.reset {
+    color: white;
+    background-color: rgb(122, 122, 122);
+    border-radius: 5px;
+    padding: 8px 15px;
+   
+    border: hidden;
+    width: 80px;
+}
