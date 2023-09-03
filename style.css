@@ -1,0 +1,75 @@
+form {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+fieldset {
+    border-color: rgb(83, 162, 201);
+    padding: 20px;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+legend {
+    color: rgb(65, 151, 194);
+    font-size: 28px;
+    font-style: italic; 
+}
+
+input, textarea, select{
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 4px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    width: 100%;
+    box-sizing: border-box;  
+}
+textarea{
+    height: 60px;
+    width: 100%;
+}
+input.radio_button, .checkbox {
+   height: 15px;
+   margin: 0px;
+   width: 20px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+.colour {
+    width: 100px;
+}
+.upload_file{
+    border: 0px;
+    width: 230px;
+}
+
+.gen_label{
+    font-weight: normal;
+}
+
+.scale{
+    width: 100px;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(40, 129, 231);
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    border: hidden;
+    width: 80px;
+}
+.reset {
+    color: white;
+    background-color: rgb(122, 122, 122);
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: hidden;
+    width: 80px;
+}
+
